@@ -1,0 +1,48 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  height: 70vh;
+  margin: 0 auto;
+  padding: 2vh;
+}
+
+body{
+  text-align: center;
+  background-color: rgb(242, 237, 232);
+}
+
+h2{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 35vh;
+}
+
+.imageBox{
+  display: none;
+  height: 70vh;
+  margin: 0 auto;
+  padding: 2vh;
+  align-content: center;
+}
+
+::placeholder{
+  color: lightgrey;
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
