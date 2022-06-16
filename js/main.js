@@ -20,7 +20,7 @@ function getFetch(){
       .then(res => res.json()) // parse response as JSON
       .then(data => {
 
-        console.log(data) //go
+        console.log(data) //go!
 
         const painting = data.objectIDs
         maxArt = painting.length
