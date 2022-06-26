@@ -50,9 +50,10 @@ function getFetch(){
           document.querySelector('img').src = data2.primaryImage
           
           if(data2.isPublicDomain == false){
-            document.querySelector('div').style.display = 'block'
-            document.querySelector('h2').innerText = 'no image available, art not in public domain'
-            document.querySelector('img').style.display = 'none'
+            // document.querySelector('div').style.display = 'block'
+            // document.querySelector('h2').innerText = 'no image available, art not in public domain'
+            // document.querySelector('img').style.display = 'none'
+            getNext()
           }else{
             document.querySelector('div').style.display = 'none'
             document.querySelector('img').style.display = 'block'

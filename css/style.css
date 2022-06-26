@@ -14,12 +14,23 @@ img{
   display: block;
   height: 70vh;
   margin: 0 auto;
-  padding: 2vh;
+  padding: 1vh;
+  border: solid rgb(89, 84, 84) 4px;
+  box-shadow: 10px 10px 5px rgb(184, 180, 180);
+}
+
+input{
+  margin-bottom: 2vh;
 }
 
 body{
   text-align: center;
+  font-family: 'Roboto', sans-serif;
   background-color: rgb(242, 237, 232);
+}
+
+h3{
+  font-style: italic;
 }
 
 h2{
@@ -30,10 +41,14 @@ h2{
 
 .imageBox{
   display: none;
-  height: 70vh;
+  height: auto;
   margin: 0 auto;
   padding: 2vh;
   align-content: center;
+}
+
+#next{
+  margin-top: 2vh;
 }
 
 ::placeholder{
